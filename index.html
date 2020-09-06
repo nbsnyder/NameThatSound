@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>NameThatSound</title>
+        <meta name="description" content="NameThatSound">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="main.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="startscreen">
+            <p>
+                This application is designed for linguists in distinguishing phonemes whose
+                distinctions are not relevant in General American English. This is helpful 
+                when exposed to different languages and dialects that make different 
+                distinctions.
+            </p>
+            <p>
+                At the moment, this application only has vowels. In the future, consonants
+                will be added as well.
+            </p>
+            <br />
+            <p>
+                Here's how it works:
+            </p>
+            <p>
+                Listen to the sound that is played. Then choopse which one of the options you 
+                think was played. An IPA vowel chart is provided. 
+            </p>
+            <button id="okbutton">
+                OK
+            </button>
+        </div>
+        <div id="toprow" class="row">
+                <audio id="PlaySound" src="" preload="auto"></audio>
+                <button id="PlaySoundButton" >Play sound</button>
+        </div>
+        <div id="middlerow" class="row">
+            <div class="DivColumns">
+                <button id="Option0">
+                    <img id="Option0Img" src="">
+                </button>
+            </div>
+            <div class="DivColumns">
+                <button id="Option1">
+                    <img id="Option1Img" src="">
+                </button>
+            </div>
+        </div>
+        <div id="bottomrow" class="row">
+            <p id="Response"></p>
+            <br>
+            <img id="vowelchartimage" src="vowels.png"></img>
+        </div>
+    </body>
+</html>

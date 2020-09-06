@@ -1,0 +1,111 @@
+body {
+    background-color: #EEFFEE;
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+        max-width: 95%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .row {
+        width: 600px;
+    }
+}
+
+.row {
+    display: none;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#startscreen {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+#okbutton {
+    display: block;
+    width: auto;
+    margin: auto;
+}
+
+#toprow {
+    height: 10vh;
+    margin-bottom: 30px;
+}
+
+#PlaySoundButton {
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    background-color: #EEEEFF;
+    border-radius: 30px;
+    height: 100%;
+    min-height: 30px;
+    max-height: 100px;
+    width: 50%;
+    min-width: 100px;
+    max-height: 300px;
+}
+
+#middlerow {
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.DivColumns {
+    width: 50%;
+    float: left;
+}
+
+#Option0, #Option1 {
+    height: 120px;
+    width: 120px;
+    padding: 10px;
+    margin: auto;
+    background-color: #FFEEEE;
+    border: 1px solid #000000;    
+}
+
+#Option0 {
+    float: right;
+    margin-right: 10%;
+}
+
+#Option1 {
+    float: left;
+    margin-left: 10%;
+}
+
+#bottomrow {
+    height: 400px;
+}
+
+#Response {
+    height: 34px;
+    width: 80px;
+    min-width: 20px;
+    max-width: 180px;
+    background-color: white;
+    font-size: 14px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#vowelchartimage {
+    display: block;
+    height: 95%;
+    width: auto;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
